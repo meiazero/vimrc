@@ -14,7 +14,7 @@
 ## 🚀 Installing
 
 ```bash
-git clone https://github.com/meiazero/.vimrc.git --branch dev
+git clone https://github.com/meiazero/.vimrc.git
 ```
 
 ## 🚀 Using
