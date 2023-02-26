@@ -98,31 +98,30 @@ augroup reload_vimrc " {
     autocmd BufWritePost $MYVIMRC AirlineRefresh
 augroup END " }
 
-" Configuracoes de busca plugin ctrlp.vim
+" Settings to search file with plugin ctrlp.vim
 let g:ctrlp_custom_ignore = 'v[ / ] .(swp|zip)$'
 let g:ctrlp_user_command = ['.git', 'cd %s && git ls-files -co --exclude-standard']
 let g:ctrlp_show_hidden = 1
 
-" Atalhos:
+" Snippets:
 
-" Seleciona Linha
-noremap <C-l> vV<CR>
+" Select Line
+noremap <C-l> V<CR>
 
-" Salva com CTRL + S: mas precisa adicionar 'stty -ixon' no final do .bashrc ou .zshrc
+" Save with CTRL + S: but need 'stty -ixon' on end .bashrc or .zshrc
 noremap <C-s> :w <CR>
 
-" Quebra de linha
+" Break line
 noremap <F4> :set wrap!<CR>
 
-" Move linha e seleção para cima
+" Move line and selection to up
 nnoremap <C-j> :m .+1<CR>==
 
-" Move linhas e seleção para baixo
+" Move line and selection to down
 nnoremap <C-k> :m .-2<CR>==
 
-" Desfaz alteração
+" Undo
 noremap <C-z> :u<CR>
-
 
 "Plugins 
 call plug#begin('~/.vim/plugged')
