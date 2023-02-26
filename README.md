@@ -1,4 +1,4 @@
-# .vimrc
+# vimrc
 
 ![GitHub language count](https://img.shields.io/github/languages/count/meiazero/.vimrc)
 ![GitHub forks](https://img.shields.io/github/forks/meiazero/.vimrc)
@@ -15,13 +15,13 @@
 ## 🚀 Installing
 
 ```bash
-git clone https://github.com/meiazero/.vimrc.git
+git clone https://github.com/meiazero/vimrc.git
 ```
 
 ## 🚀 Using
 
 ```bash
-cd .vimrc
+cd vimrc
 ```
 ```bash
 cp .vimrc $HOME
@@ -39,4 +39,4 @@ vim
 
 This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
 
-[⬆ Voltar ao topo](#nome-do-projeto)<br>
+[⬆ Voltar ao topo](#vimrc)<br>
