@@ -1,4 +1,5 @@
-![GitHub repo size](https://img.shields.io/github/repo-size/meiazero/.vimrc)
+# .vimrc
+
 ![GitHub language count](https://img.shields.io/github/languages/count/meiazero/.vimrc)
 ![GitHub forks](https://img.shields.io/github/forks/meiazero/.vimrc)
 
@@ -33,3 +34,9 @@ vim
 ```bash
 :PlugInstall
 ```
+
+## 📝 License
+
+This project is under the MIT license. See the [LICENSE](LICENSE) for more information.
+
+[⬆ Voltar ao topo](#nome-do-projeto)<br>
